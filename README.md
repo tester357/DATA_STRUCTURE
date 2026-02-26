@@ -22,3 +22,4 @@ we reimplement them manually to understand how they operate.
   
   <li><b>find_transposition(value)</b> → Searches for a value and swaps it with the previous element (self-organizing technique).</li>
 </ul>
+<h2> SINGLY LINKED LIST</h2>
