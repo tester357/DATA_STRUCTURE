@@ -1,0 +1,16 @@
+<h1><b>LINKED LIST</b></h1>
+
+<h3><b>INSERT_AT_LAST</b></h3>
+<h5>Insert a value at the end of the linked list</h5>
+
+<h3><b>DELETE_VALUE</b></h3>
+<h5>Delete a specific value from the linked list</h5>
+
+<h3><b>INSERT_AT_THE_BEGINNING</b></h3>
+<h5>Insert a value at the beginning of the linked list</h5>
+
+<h3><b>DELETE_AT_LAST</b></h3>
+<h5>Delete the last node of the linked list</h5>
+
+<h3><b>DISPLAY</b></h3>
+<h5>Display all elements in the linked list</h5>
