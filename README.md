@@ -22,4 +22,22 @@ we reimplement them manually to understand how they operate.
   
   <li><b>find_transposition(value)</b> → Searches for a value and swaps it with the previous element (self-organizing technique).</li>
 </ul>
-<h2> SINGLY LINKED LIST</h2>
+<h2>Singly Linked List</h2>
+
+<p>
+This section demonstrates the implementation of a Singly Linked List
+and some basic operations on it without using built-in libraries.
+The goal is to understand how nodes are connected and manipulated
+in memory.
+</p>
+
+<h3>Implemented Functions</h3>
+
+<ul>
+  <li><b>insert_last(value)</b> → Adds a new element to the end of the linked list.</li>
+
+  <li><b>delete_by_value(value)</b> → Removes a node from the list by specifying its value.</li>
+
+  <li><b>display()</b> → Prints all elements of the linked list.</li>
+</ul>
+
