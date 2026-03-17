@@ -79,6 +79,31 @@ void Delet_FIRST()
         delete first;
     }
 }
+void swap_pairs()
+{
+
+}
+void Delete_at_last()
+{
+    if (head == NULL)
+    {
+        cout << "List is empty\n";
+        return;
+    }
+    if (head->next == NULL)
+    {
+        delete head;
+        head = NULL;
+        return;
+    }
+    node* temp = head;
+    while (temp->next->next != NULL)
+    {
+        temp = temp->next;
+    }
+    delete temp->next;
+    temp->next = NULL;
+}
 int main()
 {
     insert_last(3);
@@ -91,5 +116,8 @@ int main()
     Display();
     cout<<'\n';
     Delet_FIRST();
+    Display();
+    cout<<"\n";
+    Delete_at_last();
     Display();
 }
