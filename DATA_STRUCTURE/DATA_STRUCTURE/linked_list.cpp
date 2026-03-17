@@ -66,6 +66,19 @@ void Delet_BYvalue(int value)
         }
     }
 }
+void Delet_FIRST()
+{
+    node *first=head;
+    if(head==NULL)
+    {
+        cout<<"IS EMPTY\n";
+    }
+    else
+    {
+        head=head->next;
+        delete first;
+    }
+}
 int main()
 {
     insert_last(3);
@@ -75,5 +88,8 @@ int main()
     Display();
     cout<<"\n";
     Delet_BYvalue(3);
+    Display();
+    cout<<'\n';
+    Delet_FIRST();
     Display();
 }
