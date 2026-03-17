@@ -109,13 +109,7 @@ public:
 
 
 };
-struct node {
-	int data;
-	node* next;
-	node(int data) :data(data) {}
 
-
-};
 int main() {
 	//vector v;
 	//v.set_size(5);
@@ -123,18 +117,7 @@ int main() {
 	////v.right_rotate_with_steps(2);
 	////v.pop(2);
 	//v.find_transposition(10);
-			//create values
 	
-	node* node1 = new node(6);
-	node* node2 = new node(8);
-	node* node3 = new node(10);
-	node* node4 = new node(15);
-	//set
-	node1->next = node2;
-	node2->next = node3;
-	node3->next = node4;
-	node4->next =  nullptr ;
-	cout << node1->next->next->next->data<<"\n";
 	cout << node2->next->next->data<<"\n";
 	cout << node3->next->data << " \n";
 	cout << node4->next->data << " \n";
