@@ -40,4 +40,7 @@ in memory.
 
   <li><b>display()</b> → Prints all elements of the linked list.</li>
 </ul>
-
+<li>
+<b>delete_first()</b> → Removes the first element of the linked list.
+The head pointer is moved to the next node, and the previous first node is deleted from memory.
+</li>
